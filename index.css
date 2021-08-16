@@ -1,0 +1,62 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    /* background-color: red; */
+    height: 40vw; /*view port width aka 40% of my total viewport width*/
+    width: 40vw;
+    background: url(imgs/clock1.png) no-repeat;
+    background-size: 100%;
+    background-color: #3eebf7;
+    /* border: 2px solid red; */
+
+}
+
+#hour, #minute, #second, #mock {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    /* left: 200px; */
+}
+#hour{    
+    width: 4px;
+    height: 100px;
+    top: 30.6%;
+    left: 50%;
+    /* display: none; */
+}
+
+#minute{    
+    width: 2px;
+    height: 150px;
+    top: 21.6%;
+    left: 50%;
+    opacity: 0.8;
+    /* display: none; */
+}
+#second{    
+    width: 2px;
+    height: 170px;
+    top: 17.6%;
+    left: 50%;
+    opacity: 0.8;
+    /* display: none; */
+
+}
+/* #mock{
+    width: 100%;
+    height: 2px;
+    top: 48%;
+} */
+.color{
+    background-color: #3eebf7;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+.heading{
+    position: relative;
+    text-align: center;
+    background-image: url(imgs/jslogo.png);
+}
